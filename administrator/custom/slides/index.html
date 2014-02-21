@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>slide show</title>
+	
+	<link rel="stylesheet" href="css/slideshow.css">
+	
+	<script src="../scripts/jquery.min.js"></script>
+	<script src="../scripts/jquery.easing.1.3.js"></script>
+	<script src="slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 7000,
+				pause: 6500,
+				hoverPause: true
+			});
+		});
+	</script>
+</head>
+<body bgcolor="Maroon">
+	<div id="container">
+		<div id="example">
+			<div id="slides">
+				<div class="slides_container">
+					<img src="../../images/slideshow/image1.jpg" width="700" height="300" alt="slide 1">
+					<img src="../../images/slideshow/image2.jpg" width="700" height="300" alt="Slide 2">
+					<img src="../../images/slideshow/image3.jpg" width="700" height="300" alt="Slide 3">
+					<img src="../../images/slideshow/image4.jpg" width="700" height="300" alt="Slide 4">
+					<img src="../../images/slideshow/image5.jpg" width="700" height="300" alt="Slide 5">
+					<img src="../../images/slideshow/image6.jpg" width="700" height="300" alt="Slide 6">
+					<img src="../../images/slideshow/image7.jpg" width="700" height="300" alt="Slide 7">
+				</div>
+				<a href="#" class="prev"><img src="../../images/prev.png" width="28" height="60" alt="Prev Slide"></a>
+				<a href="#" class="next"><img src="../../images/next.png" width="28" height="60" alt="Next Slide"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

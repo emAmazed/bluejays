@@ -1,0 +1,122 @@
+dl.accordion-menu {
+	font: normal 14px Geneva,'DejaVu Sans', Helvetica, sans-serif;
+	background:#34689B; 
+	color: #fff;
+	display: block;
+	padding: 2px 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 184px;
+	height:520px;
+	margin-top:10px;
+}
+
+dl.accordion-menu li,
+dl.accordion-menu ul.ojaccordionmenu_yaho li.oj-accord_li {
+	list-style:none;
+	background:#EDEDF4;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:0;
+	margin-left:0;
+}
+
+dl.accordion-menu a {
+	text-decoration:none;
+}
+
+dl.accordion-menu .a-m-t {
+	margin:0;
+	background: #34689B; 
+	height:22px;
+	line-height:22px;
+	padding:0 0 0 2px;
+	border-bottom:solid 1px #fff;
+	padding-top:5px;
+padding-bottom:5px;
+}
+
+html.accordion-menu-js .a-m-t{
+	cursor:pointer;
+	zoom:1;
+}
+
+html.accordion-menu-js .a-m-t a{
+	color:#fff;
+	text-decoration:none;
+}
+
+dl.accordion-menu .a-m-d {
+	margin: 0;
+	padding: 0;
+}
+
+html.accordion-menu-js .a-m-d{
+	display:none;
+}
+
+
+html.accordion-menu-js .a-m-d-expand {
+	display:block;
+	border:1px solid #fff; 
+	border-top:0;
+	border-bottom:0;
+}
+
+html.accordion-menu-js .a-m-d-before-expand {
+	display:block;
+	position:relative;
+	z-index:-1;
+	opacity:0;
+	height:auto !important;
+	visibility:hidden;
+	overflow:visible;
+}
+
+
+html.accordion-menu-js .a-m-t-expand {
+	color:#fff;
+}
+
+html.accordion-menu-js .a-m-d-anim {
+	overflow:hidden;
+	display:block;	
+}
+
+dl.accordion-menu .a-m-d .bd{
+	margin:0px;
+	padding:0px;
+}
+
+/* Link style */
+div.bd ul.ojaccordionmenu_yaho {
+	list-style:none;
+	margin:auto;
+	padding:2px 2px 2px 2px;
+}
+
+div.bd ul.ojaccordionmenu_yaho li {
+	margin:0;
+	background:none;
+}
+
+div.bd ul.ojaccordionmenu_yaho li a {
+	padding:2px 2px 4px 2px;
+	border-bottom:1px solid #fff; 
+	font-weight:normal;
+	color: #064780; 
+	display:block;
+}
+
+div.bd ul.ojaccordionmenu_yaho li a:hover {
+	background: #eda76b; 
+}
+
+div.bd ul.ojaccordionmenu_yaho li a.sub_active {
+	color: #fff; 
+	background:#B95B09; 
+	margin:0 2px 0 0;
+	padding-top:10px;
+	position:relative;
+	top:-6px;
+}
