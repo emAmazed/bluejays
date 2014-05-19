@@ -1,0 +1,10 @@
+*~
+*.swp
+DS_Store
+/cache
+error_log
+/tmp
+administrator/error_log
+administrator/cache
+./configuration.php
+
